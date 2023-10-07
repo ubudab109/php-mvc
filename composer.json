@@ -1,0 +1,21 @@
+{
+    "name": "user/fullstack-test",
+    "autoload": {
+        "files": [
+            "src/Utilities/db.php",
+        ],
+        "psr-4": {
+            "User\\FullstackTest\\": "src/",
+            "MVC\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Rizky Firdaus",
+            "email": "rizkyfirdaus0309@gmail.com"
+        }
+    ],
+    "require": {
+        "myclabs/php-enum": "^1.8"
+    }
+}
